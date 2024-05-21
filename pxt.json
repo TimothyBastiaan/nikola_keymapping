@@ -1,0 +1,26 @@
+{
+    "name": "Nikola_keymapping",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "edge-connector": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "keymapping.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.51",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
